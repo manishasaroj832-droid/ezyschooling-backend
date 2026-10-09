@@ -1,4 +1,6 @@
 package com.example.backend.controller;
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -9,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.backend.entity.User;
 import com.example.backend.repository.UserRepo;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/auth")
