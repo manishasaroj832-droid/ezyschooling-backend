@@ -16,7 +16,7 @@ public class CorsConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-            List.of("http://localhost:5173")
+            List.of("http://localhost:5173","https://ezyschooling-frontend-3hnc-git-main-manisha-9363.vercel.app")
         );
 
         configuration.setAllowedMethods(

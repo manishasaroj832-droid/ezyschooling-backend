@@ -14,7 +14,7 @@ import com.example.backend.repository.UserRepo;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins="http://localhost:5173")
+@CrossOrigin(origins="https://ezyschooling-frontend-3hnc-git-main-manisha-9363.vercel.app")
 public class AuthController {
     @Autowired
     private final UserRepo userRepo;
