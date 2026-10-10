@@ -7,7 +7,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource; 
 
-@Configuration
+@Configuration 
 public class CorsConfig {
 
     @Bean
@@ -16,7 +16,7 @@ public class CorsConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-            List.of("http://localhost:5173","https://ezyschooling-frontend-3hnc-git-main-manisha-9363.vercel.app")
+            List.of("http://localhost:5173","https://ezyschooling-7a7uggaml-manisha-9363.vercel.app")
         );
 
         configuration.setAllowedMethods(
